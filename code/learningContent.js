@@ -194,14 +194,18 @@ const DATA = {
             'בטיחות בדרכים': {
                 "1) בטיחות בדרכים ": [ 
                     {
-                        cardType: "video",
-                        video: "../assets/images/videos&photos/vid1.mp4"
+                        // cardType: "video",
+                        // video: "../assets/images/videos&photos/vid1.mp4"
+                        cardType: "youtube",
+                        youtube: "https://youtu.be/Sm_2ZhFu8rM"
                     },
                 ],
                 "2) בטיחות בדרכים ": [ 
                     {
-                        cardType: "video",
-                        video: "../assets/images/videos&photos/vid2.mp4"
+                        // cardType: "video",
+                        // video: "../assets/images/videos&photos/vid2.mp4"
+                        cardType: "youtube",
+                        youtube: "https://youtu.be/bAS2QEVLTac"
                     },
                 ],
                 "3) בטיחות בדרכים ": [ 
@@ -401,8 +405,10 @@ const DATA = {
             "בטיחות בסדנאות": {       
                 "בטיחות בסדנאות": [
                     {
-                        cardType: "video",
-                        video: "../assets/images/videos&photos/vid8.mp4",
+                        // cardType: "video",
+                        // video: "../assets/images/videos&photos/vid8.mp4",
+                        cardType: "youtube",
+                        youtube: "https://youtu.be/Lym1vfjwFAE"
                     }
                 ]
             },
