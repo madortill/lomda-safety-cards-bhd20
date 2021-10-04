@@ -197,7 +197,7 @@ const DATA = {
                         // cardType: "video",
                         // video: "../assets/images/videos&photos/vid1.mp4"
                         cardType: "youtube",
-                        youtube: "https://youtu.be/Sm_2ZhFu8rM"
+                        youtube: "https://www.youtube.com/embed/Sm_2ZhFu8rM"
                     },
                 ],
                 "2) בטיחות בדרכים ": [ 
@@ -205,7 +205,7 @@ const DATA = {
                         // cardType: "video",
                         // video: "../assets/images/videos&photos/vid2.mp4"
                         cardType: "youtube",
-                        youtube: "https://youtu.be/bAS2QEVLTac"
+                        youtube: "https://www.youtube.com/embed/bAS2QEVLTac"
                     },
                 ],
                 "3) בטיחות בדרכים ": [ 
@@ -408,7 +408,7 @@ const DATA = {
                         // cardType: "video",
                         // video: "../assets/images/videos&photos/vid8.mp4",
                         cardType: "youtube",
-                        youtube: "https://youtu.be/Lym1vfjwFAE"
+                        youtube: "https://www.youtube.com/embed/Lym1vfjwFAE"
                     }
                 ]
             },
