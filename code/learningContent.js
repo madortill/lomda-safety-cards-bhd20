@@ -317,8 +317,8 @@ const DATA = {
             "טלטול והרמה": {
                 "טלטול והרמה": [
                     {
-                        cardType: "video",
-                        video: "../assets/images/videos&photos/vid6.mp4",
+                        cardType: "youtube",
+                        youtube: "https://www.youtube.com/embed/RfNkJA3dWZ0",
                     }
                 ]
             }
@@ -361,8 +361,8 @@ const DATA = {
             "בטיחות בחשמל": {       
                 "בטיחות בחשמל": [
                     {
-                        cardType: "video",
-                        video: "../assets/images/videos&photos/vid7.mp4",
+                        cardType: "youtube",
+                        youtube:"https://www.youtube.com/embed/QAbbFbTaabk",
                     }
                 ]
             }
@@ -451,8 +451,8 @@ const DATA = {
             "גובה": {       
                 "גובה": [
                     {
-                        cardType: "video",
-                        video: "../assets/images/videos&photos/vid8.mp4",
+                        cardType: "youtube",
+                        youtube: "https://www.youtube.com/embed/xZr1u1NOPjw",
                     }
                 ]
             }
@@ -550,8 +550,8 @@ const DATA = {
             "בטיחות באש": {       
                 "בטיחות באש": [
                     {
-                        cardType: "video",
-                        video: "../assets/images/videos&photos/vid4.mp4",
+                        cardType: "youtube",
+                        youtube: "https://www.youtube.com/embed/6iCNYJuISoY",
                     }
                 ]
             }
