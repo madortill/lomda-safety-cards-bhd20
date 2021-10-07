@@ -168,7 +168,7 @@
       }
 
       .cls-42 {
-        fill: #2be8f7;
+        fill: #fcb328;
       }
 
       .cls-43 {
@@ -824,7 +824,8 @@
                 <path id="Path_92-4" data-name="Path 92" class="cls-26" d="M301.161,518.374l12.57,50.212a22.272,22.272,0,0,0,27.013,16.2h0a22.271,22.271,0,0,0,16.2-27.013l-5.218-20.849" transform="translate(-295.423 -477.679)"/>
               </g>
             </g>
-            <text id="נוהל_ברירת_וניפוי_מוצרי_מזון" data-name="נוהל ברירת וניפוימוצרי מזון" class="cls-41" transform="translate(428.653 291.971)"><tspan x="-183.433" y="0"></tspan><tspan y="0">נוהל ברירת וניפוי</tspan><tspan x="-108.836" y="53">מוצרי מזון</tspan></text>
+            <text id="נוהל_ברירת_וניפוי_מוצרי_מזון" data-name="נוהל ברירת וניפוי
+מוצרי מזון" class="cls-41" transform="translate(428.653 291.971)"><tspan x="-183.433" y="0"></tspan><tspan y="0">נוהל ברירת וניפוי</tspan><tspan x="-108.836" y="53">מוצרי מזון</tspan></text>
             <g id="Group_518-3" data-name="Group 518" transform="translate(-12.348 -0.348)">
               <circle id="Ellipse_10-4" data-name="Ellipse 10" class="cls-28" cx="47" cy="47" r="47" transform="translate(379.001 120.32)"/>
             </g>

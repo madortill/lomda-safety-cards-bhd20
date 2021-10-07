@@ -235,7 +235,7 @@
 
 .page.practice .progress-bar-right-answers,
 .page.practice .progress-bar-time {
-  background-color: rgb(43, 232, 247);
+  background-color: #fcb328;
   height: 2vmin;
   border-radius: 2rem;
   width: 0%;
