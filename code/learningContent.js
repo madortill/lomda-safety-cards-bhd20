@@ -194,16 +194,12 @@ const DATA = {
             'בטיחות בדרכים': {
                 "1) בטיחות בדרכים ": [ 
                     {
-                        // cardType: "video",
-                        // video: "../assets/images/videos&photos/vid1.mp4"
                         cardType: "youtube",
                         youtube: "https://www.youtube.com/embed/Sm_2ZhFu8rM"
                     },
                 ],
                 "2) בטיחות בדרכים ": [ 
                     {
-                        // cardType: "video",
-                        // video: "../assets/images/videos&photos/vid2.mp4"
                         cardType: "youtube",
                         youtube: "https://www.youtube.com/embed/bAS2QEVLTac"
                     },
@@ -211,7 +207,7 @@ const DATA = {
                 "3) בטיחות בדרכים ": [ 
                     {
                         cardType: "video",
-                        video: "../assets/images/videos&photos/vid3.mp4"
+                        video: "https://www.youtube.com/embed/XGl74ibUVIY"
                     },
                 ]
             }
@@ -255,8 +251,8 @@ const DATA = {
             "הגנת הסביבה": {
                 "הגנת הסביבה": [
                     {
-                        cardType: "video",
-                        video: "../assets/images/videos&photos/vid5.mp4",
+                        cardType: "youtube",
+                        youtube:"https://www.youtube.com/embed/fkjKsXVB7Ro",
                     }
                 ]
             }
