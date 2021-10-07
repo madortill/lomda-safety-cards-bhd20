@@ -206,8 +206,8 @@ const DATA = {
                 ],
                 "3) בטיחות בדרכים ": [ 
                     {
-                        cardType: "video",
-                        video: "https://www.youtube.com/embed/XGl74ibUVIY"
+                        cardType: "youtube",
+                        youtube:"https://www.youtube.com/embed/XGl74ibUVIY"
                     },
                 ]
             }
