@@ -48,7 +48,7 @@ window.addEventListener("load", function () {
     fullScreen.addEventListener("click", homePage);
     
     // מעבר בין עמוד הבית לעמוד הלמידה
-    let scrollingIcon = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/opening/scrolling_icon.svg"}});
+    let scrollingIcon = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/icons/bhd20.png"}});
     document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon); 
     // הפעלה של האנימציה בלחיצה
     document.querySelector(".page.opening .expand").style.transition = "all 1s ease";
