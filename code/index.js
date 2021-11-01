@@ -46,12 +46,15 @@ window.addEventListener("load", function () {
     let fullScreen = El("div", {cls: "full-screen"});
     document.querySelector(".page.opening").before(fullScreen);
     fullScreen.addEventListener("click", homePage);
-
+    
     // מעבר בין עמוד הבית לעמוד הלמידה
     let scrollingIcon = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/opening/scrolling_icon.svg"}});
     document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon); 
     // הפעלה של האנימציה בלחיצה
     document.querySelector(".page.opening .expand").style.transition = "all 1s ease";
+   
+
+    
 
 });
 
@@ -72,6 +75,9 @@ function homePage(event) {
     
     document.querySelector(".page.home .about").style.display = "block";
     document.querySelector(".page.home .about").addEventListener("click", aboutPage);
+
+     //העלמת הטקסט הראשוני
+     document.querySelector(".textAreaOpening").style.visibility = "hidden";
     
     let fullScreen = El("div", {cls: "full-screen"});
     document.querySelector(".page.opening").before(fullScreen);
