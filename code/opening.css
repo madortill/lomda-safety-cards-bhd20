@@ -69,3 +69,9 @@
   margin-bottom: 4vw;
   max-height: 15vw;
 }
+
+.page .textAreaOpening {
+    padding: 5vh;
+    text-align: center;
+    font-size: 4.5vmin;
+}
