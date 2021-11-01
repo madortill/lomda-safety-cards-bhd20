@@ -77,8 +77,11 @@ function homePage(event) {
     document.querySelector(".page.home .about").addEventListener("click", aboutPage);
 
      //העלמת הטקסט הראשוני
-     document.querySelector(".textAreaOpening").style.visibility = "hidden";
+     document.querySelector(".textAreaOpening").style.display = "none";
     
+     //העלמת כפתור יד
+     document.querySelector(".container-scrolling_icon").style.visibility = "hidden";
+
     let fullScreen = El("div", {cls: "full-screen"});
     document.querySelector(".page.opening").before(fullScreen);
     // מעבר לדף הבית
