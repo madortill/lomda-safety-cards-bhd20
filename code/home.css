@@ -16,13 +16,15 @@
 }
 
 .page.home .textArea {
+    position: absolute;
     text-align: center;
     font-size: 4.5vmin;
+    top: 25vh;
 }
 
 .page.home .books {
     display: none;
-    height: 18em;
+    height: 1em;
     min-height: 13em;
     animation: show 2s ease;
     -webkit-animation: show 2s ease;
