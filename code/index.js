@@ -48,9 +48,9 @@ window.addEventListener("load", function () {
     fullScreen.addEventListener("click", homePage);
     
     // מעבר בין עמוד הבית לעמוד הלמידה
-    let scrollingIcon1 = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/icons/bhd20.png"}});
-    let scrollingIcon2 = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/logo-bhd20.png"}});
-    let scrollingIcon3 = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/logo-bhd20-colors.png"}});
+    let scrollingIcon1 = El("img", {attributes: {class:"scrolling_icon", id: "scrollingIcon1" , src: "../assets/images/icons/bhd20.png"}});
+    let scrollingIcon2 = El("img", {attributes: {class:"scrolling_icon", id: "scrollingIcon2" , src: "../assets/images/logo-bhd20.png"}});
+    let scrollingIcon3 = El("img", {attributes: {class:"scrolling_icon", id: "scrollingIcon3" , src: "../assets/images/logo-bhd20-colors.png"}});
     document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon1);
     document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon2);
     document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon3);   
@@ -82,6 +82,12 @@ function homePage(event) {
 
      //העלמת הטקסט הראשוני
      document.querySelector(".textAreaOpening").style.display = "none";
+
+     //העלמת סמלים בדף הראשי
+     document.querySelector("#scrollingIcon1").style.display = "none";
+     document.querySelector("#scrollingIcon2").style.display = "none";
+     document.querySelector("#scrollingIcon3").style.display = "none";
+
     
     let fullScreen = El("div", {cls: "full-screen"});
     document.querySelector(".page.opening").before(fullScreen);
