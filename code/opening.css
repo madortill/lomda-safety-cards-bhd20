@@ -34,13 +34,14 @@
 }
 
 .page.opening .scrolling_icon {
-  height: 12vh;
+  height: 10vh;
   flex:0;
-  width: 15vw;
+  width: 15;
   cursor: pointer;
   pointer-events: all;
   transition: 1s linear margin-bottom;
   margin-bottom: 20vh;
+  padding: 4%;
 }
 
 .page.opening .container-scrolling_icon {
