@@ -1,5 +1,6 @@
 .page.home {
     height: 75%;
+    margin-top: -10%;
     transition: 1s ease-in-out height;
 }
 
