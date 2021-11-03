@@ -48,8 +48,12 @@ window.addEventListener("load", function () {
     fullScreen.addEventListener("click", homePage);
     
     // מעבר בין עמוד הבית לעמוד הלמידה
-    let scrollingIcon = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/icons/bhd20.png"}});
-    document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon); 
+    let scrollingIcon1 = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/icons/bhd20.png"}});
+    let scrollingIcon2 = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/logo-bhd20.png"}});
+    let scrollingIcon3 = El("img", {attributes: {class:"scrolling_icon", src: "../assets/images/logo-bhd20-colors.png"}});
+    document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon1);
+    document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon2);
+    document.querySelector(".page.opening .container-scrolling_icon").append(scrollingIcon3);   
     // הפעלה של האנימציה בלחיצה
     document.querySelector(".page.opening .expand").style.transition = "all 1s ease";
    
@@ -79,9 +83,6 @@ function homePage(event) {
      //העלמת הטקסט הראשוני
      document.querySelector(".textAreaOpening").style.display = "none";
     
-     //העלמת כפתור יד
-     document.querySelector(".container-scrolling_icon").style.visibility = "hidden";
-
     let fullScreen = El("div", {cls: "full-screen"});
     document.querySelector(".page.opening").before(fullScreen);
     // מעבר לדף הבית
