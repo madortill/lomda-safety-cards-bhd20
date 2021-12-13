@@ -1,6 +1,5 @@
 .page.home {
     height: 75%;
-    margin-top: -10%;
     transition: 1s ease-in-out height;
 }
 
@@ -20,7 +19,7 @@
     position: absolute;
     text-align: center;
     font-size: 4vmin;
-    top: 30vh;
+    top: 23vh;
 }
 
 .page.home .books {
